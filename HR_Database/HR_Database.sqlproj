@@ -58,7 +58,7 @@
     <Folder Include="Properties" />
     <Folder Include="Tables" />
     <Folder Include="Views" />
-    <Folder Include="Publish" />
+    <Folder Include="Publish_Profiles" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\jobs.sql" />
@@ -67,5 +67,8 @@
     <Build Include="Tables\locations.sql" />
     <Build Include="Tables\countries.sql" />
     <Build Include="Tables\regions.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Publish_Profiles\HR_Database.publish.xml" />
   </ItemGroup>
 </Project>
