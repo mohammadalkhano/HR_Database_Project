@@ -1,6 +1,6 @@
 ﻿CREATE TABLE [dbo].[locations]
 (
-	[Id] INT NOT NULL PRIMARY KEY,
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
 	[street_address] NVARCHAR(50) NULL,
 	[postal_code] NVARCHAR (50) NULL,
 	[city] NVARCHAR(50) NOT NULL,
