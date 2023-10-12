@@ -67,6 +67,7 @@
     <Build Include="Tables\locations.sql" />
     <Build Include="Tables\countries.sql" />
     <Build Include="Tables\regions.sql" />
+    <Build Include="Views\EmployeesView.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Publish_Profiles\HR_Database.publish.xml" />
